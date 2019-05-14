@@ -6,9 +6,10 @@ import (
 )
 
 func main() {
-	fmt.Println("HELLO GO CD")
-	fmt.Println("WORKWORKWOKR")
-	fmt.Println()
-	time.Sleep(2 * time.Second)
+	for {
+		fmt.Println("HELLO GO CD")
+		fmt.Println("WORKWORKWOKR")
+		fmt.Println()
+		time.Sleep(2 * time.Second)
+	}
 }
-
